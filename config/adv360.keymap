@@ -92,7 +92,7 @@
             label = "MACRO_KO";
         };
 
-        macro_SA: macro_sa {
+        macro_SA: macro_SA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp A>;

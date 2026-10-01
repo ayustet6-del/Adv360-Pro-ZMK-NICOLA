@@ -28,6 +28,111 @@
             bindings = <&kp A>;
             label = "MACRO_A";
         };
+
+        macro_I: macro_I {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I>;
+            label = "MACRO_I";
+        };
+
+        macro_U: macro_U {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U>;
+            label = "MACRO_U";
+        };
+
+        macro_E: macro_E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E>;
+            label = "MACRO_E";
+        };
+
+        macro_O: macro_O {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O>;
+            label = "MACRO_O";
+        };
+
+        macro_KA: macro_KA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp A>;
+            label = "MACRO_KA";
+        };
+
+        macro_KI: macro_KI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp I>;
+            label = "MACRO_KI";
+        };
+
+        macro_KU: macro_KU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp U>;
+            label = "MACRO_KU";
+        };
+
+        macro_KE: macro_KE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp E>;
+            label = "MACRO_KE";
+        };
+
+        macro_KO: macro_KO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp O>;
+            label = "MACRO_KO";
+        };
+
+        macro_SA: macro_sa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp A>;
+            label = "MACRO_SA";
+        };
+
+        macro_SI: macro_SI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp I>;
+            label = "MACRO_SI";
+        };
+
+        macro_SU: macro_SU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp U>;
+            label = "MACRO_SU";
+        };
+
+        macro_SE: macro_SE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp E>;
+            label = "MACRO_SE";
+        };
+
+        macro_SO: macro_SO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp O>;
+            label = "MACRO_SO";
+        };
+
+        macro_TA: macro_TA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp A>;
+            label = "MACRO_TA";
+        };
     };
 
     keymap {

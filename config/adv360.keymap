@@ -704,6 +704,104 @@
             timeout-ms = <50>;
             layers = <4>;
         };
+
+        combo_O {
+            bindings = <&macro_O>;
+            key-positions = <70 41>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_NO {
+            bindings = <&macro_NO>;
+            key-positions = <70 42>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LYO {
+            bindings = <&macro_LYO>;
+            key-positions = <70 43>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LTU {
+            bindings = <&macro_LTU>;
+            key-positions = <70 44>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LU {
+            bindings = <&macro_LU>;
+            key-positions = <47 65>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_HYPHEN {
+            bindings = <&kp MINUS>;
+            key-positions = <65 48>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_RO {
+            bindings = <&macro_RO>;
+            key-positions = <65 49>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_YA {
+            bindings = <&macro_YA>;
+            key-positions = <65 50>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LI {
+            bindings = <&macro_LI>;
+            key-positions = <65 51>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_NU {
+            bindings = <&macro_NU>;
+            key-positions = <54 70>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_YU {
+            bindings = <&macro_YU>;
+            key-positions = <70 55>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_MU {
+            bindings = <&macro_MU>;
+            key-positions = <70 56>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_WA {
+            bindings = <&macro_WA>;
+            key-positions = <70 57>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LO {
+            bindings = <&macro_LO>;
+            key-positions = <70 58>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
     };
 
     keymap {

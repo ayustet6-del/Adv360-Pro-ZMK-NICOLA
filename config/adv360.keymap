@@ -860,7 +860,7 @@
         };
 
         combo_DU {
-            bindings = <&macro_GU>;
+            bindings = <&macro_DU>;
             key-positions = <65 25>;
             timeout-ms = <50>;
             layers = <4>;

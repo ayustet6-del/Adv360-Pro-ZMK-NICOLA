@@ -21,6 +21,15 @@
         };
     };
 
+    macros {
+        macro_A: macro_A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>;
+            label = "MACRO_A";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

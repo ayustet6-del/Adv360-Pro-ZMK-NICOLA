@@ -590,6 +590,122 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_LA {
+            bindings = <&macro_LA>;
+            key-positions = <15 65>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_E {
+            bindings = <&macro_E>;
+            key-positions = <16 65>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_RI {
+            bindings = <&macro_RI>;
+            key-positions = <65 17>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LYA {
+            bindings = <&macro_LYA>;
+            key-positions = <65 18>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_RE {
+            bindings = <&macro_RE>;
+            key-positions = <65 19>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_YO {
+            bindings = <&macro_YO>;
+            key-positions = <22 70>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_NI {
+            bindings = <&macro_NI>;
+            key-positions = <70 23>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_RU {
+            bindings = <&macro_RU>;
+            key-positions = <70 24>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_MA {
+            bindings = <&macro_MA>;
+            key-positions = <70 25>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_E {
+            bindings = <&macro_E>;
+            key-positions = <70 26>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_WO {
+            bindings = <&macro_WO>;
+            key-positions = <29 65>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_A {
+            bindings = <&macro_A>;
+            key-positions = <65 30>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_NA {
+            bindings = <&macro_NA>;
+            key-positions = <65 31>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_LYU {
+            bindings = <&macro_LYU>;
+            key-positions = <65 32>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_MO {
+            bindings = <&macro_MO>;
+            key-positions = <65 33>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+
+        combo_MI {
+            bindings = <&macro_MI>;
+            key-positions = <40 70>;
+            timeout-ms = <50>;
+            layers = <4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -638,7 +754,7 @@
         };
 
         NICOLA {
-            display-name = "nicola";
+            display-name = "NICOLA";
             bindings = <
 &kp EQUAL  &kp N1      &kp N2     &kp N3     &kp N4     &kp N5     &tog 1                                                          &mo 3  &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
 &kp TAB    &kp PERIOD  &macro_KA  &macro_TA  &macro_KO  &macro_SA  &none                                                           &none  &macro_RA  &macro_TI  &macro_KU  &macro_TU  &kp COMMA  &kp BSLH
